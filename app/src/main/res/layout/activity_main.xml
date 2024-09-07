@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#365393"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:text="Flag Quiz"
+        android:textColor="#83c1e4"
+        android:textSize="34sp" />
+
+    <ImageView
+        android:id="@+id/iv_flag"
+        android:layout_width="387dp"
+        android:layout_height="322dp"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/bAnswer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#ffcc81"
+        android:text="" />
+
+    <Button
+        android:id="@+id/bAnswer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#ffcc81"
+        android:text="" />
+
+    <Button
+        android:id="@+id/bAnswer3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#ffcc81"
+        android:text="" />
+
+    <Button
+        android:id="@+id/bAnswer4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#ffcc81"
+        android:text="" />
+
+</LinearLayout>

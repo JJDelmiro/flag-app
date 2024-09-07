@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#365393"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <!-- Título do jogo -->
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:text="Flag Quiz"
+        android:textColor="#ffffff"
+        android:textSize="48sp" />
+
+    <!-- Campo para o nome do jogador -->
+    <EditText
+        android:id="@+id/et_player_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:background="#ffffff"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Botão de start -->
+    <Button
+        android:id="@+id/btn_start_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="START"
+        android:textSize="20sp"
+        android:background="#83c1e4"
+        android:textColor="#ffffff"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Imagem e identificação abaixo -->
+
+    <ImageView
+        android:id="@+id/iv_small_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="Small image"
+        android:src="@drawable/jj" />
+
+    <TextView
+        android:id="@+id/tv_player_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Julia de Sousa Delmiro\n1729371627"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:gravity="center" />
+</LinearLayout>
